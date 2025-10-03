@@ -12,8 +12,8 @@ import simplelookup.sampleui.actions.ChangeAction;
  * @author KylaBob
  */
 public class FileNode {
-    private static final Icon folderIcon = new ImageIcon(FileBrowser.class.getResource("folder.png"));
-    private static final Icon fileIcon = new ImageIcon(FileBrowser.class.getResource("page_white_text.png"));
+    private static final Icon folderIcon = new ImageIcon(FileBrowser.class.getResource("/folder.png"));
+    private static final Icon fileIcon = new ImageIcon(FileBrowser.class.getResource("/page_white_text.png"));
 
     private Action[] actions;
     private File file;
