@@ -1,7 +1,8 @@
 # SimpleLookup
 
-SimpleLookup is a lightweight, simplified implementation of the NetBeans Lookup mechanism. It provides a simple way to 
-decouple different parts of an application by using a centralized registry for objects and services.
+SimpleLookup is a lightweight, simplified implementation of the 
+[NetBeans Lookup mechanism](https://netbeans.apache.org/wiki/main/netbeansdevelopperfaq/DevFaqLookup/). It provides a 
+simple way to decouple different parts of an application by using a centralized registry for objects and services.
 
 The core idea is to have a "bag" of objects where you can query for instances of a specific class. This avoids direct 
 dependencies between components, making the application more modular and easier to maintain.
